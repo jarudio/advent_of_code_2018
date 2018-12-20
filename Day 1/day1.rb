@@ -1,7 +1,7 @@
 inputs = []
 counter = 0
 
-file = File.open( 'input1.txt' )
+file = File.open( 'input.txt' )
 file.each_line do | line |
   inputs.push( line )
 end
